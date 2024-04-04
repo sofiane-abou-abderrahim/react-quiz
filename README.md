@@ -21,3 +21,8 @@
 3. built `Header.jsx` component
 4. add states in `Quiz.jsx` to manage the questions & answers
 5. output `<Header>` & `<Quiz>`components in `App.jsx`
+
+## 2. Deriving Values, Outputting Questions & Registering Answers
+
+1. create a `questions.js` file with questions & answers inside
+2. change the logic in `Quiz.jsx` for managing questions & answers
