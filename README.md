@@ -31,3 +31,10 @@
 
 1. shuffle the answers by using the `sort` method in `Quiz.jsx`
 2. make sure the app doesn't break if we answer all the questions & display a summary instead of the quiz
+
+## 4. Adding Question Timers
+
+1. create a `QuestionTimer.jsx` component
+2. set a progress bar inside `QuestionTimer.jsx`
+3. define a timeout & an interval using the `useState` & `useEffect` hooks inside `QuestionTimer.jsx`
+4. ouptut the `<QuestionTimer>` component inside `Quiz.jsx`
