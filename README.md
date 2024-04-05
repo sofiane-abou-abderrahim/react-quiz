@@ -38,3 +38,7 @@
 2. set a progress bar inside `QuestionTimer.jsx`
 3. define a timeout & an interval using the `useState` & `useEffect` hooks inside `QuestionTimer.jsx`
 4. ouptut the `<QuestionTimer>` component inside `Quiz.jsx`
+
+## 5. Working with Effect Dependencies & useCallback
+
+1. make sure the timeout doesn't execute again by wrapping the `handleSelectAnswer` function with the `useCallback` hook in `Quiz.jsx`
