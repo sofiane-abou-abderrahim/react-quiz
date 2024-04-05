@@ -42,3 +42,9 @@
 ## 5. Working with Effect Dependencies & useCallback
 
 1. make sure the timeout doesn't execute again by wrapping the `handleSelectAnswer` function with the `useCallback` hook in `Quiz.jsx`
+
+## 6. Using Effect Cleanup Functions & Using Keys for Resetting Components
+
+1. cleanup the existing interval if the effect function runs again in `QuestionTimer.jsx`
+2. cleanup the existing timer to prevent it from keeping on going in `QuestionTimer.jsx`
+3. reset the `<QuestionTimer>` component when the question changes by adding a `key` prop to it
