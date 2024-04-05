@@ -26,3 +26,8 @@
 
 1. create a `questions.js` file with questions & answers inside
 2. change the logic in `Quiz.jsx` for managing questions & answers
+
+## 3. Shuffling Answers & Adding Quiz Logic
+
+1. shuffle the answers by using the `sort` method in `Quiz.jsx`
+2. make sure the app doesn't break if we answer all the questions & display a summary instead of the quiz
