@@ -48,3 +48,8 @@
 1. cleanup the existing interval if the effect function runs again in `QuestionTimer.jsx`
 2. cleanup the existing timer to prevent it from keeping on going in `QuestionTimer.jsx`
 3. reset the `<QuestionTimer>` component when the question changes by adding a `key` prop to it
+
+## 7. Highlighting Selected Answers & Managing More State
+
+1. add a new `answerState` state that controls our current answer state in `Quiz.jsx`
+2. dynamically change the color of the selected answer
