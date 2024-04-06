@@ -53,3 +53,10 @@
 
 1. add a new `answerState` state that controls our current answer state in `Quiz.jsx`
 2. dynamically change the color of the selected answer
+
+## 8. Splitting Components Up To Solve Problems
+
+1. shuffle the answers once when the `activeQuestionIndex` changes by using the `useRef` hook in `Quiz.jsx`
+2. create a `Answers.jsx` component to make sure that the answers are shuffled every next questions & that the answer doesn't remain selected
+3. output the `<Answers>` component in `Quiz.jsx`
+4. create a `Question.jsx` component to use only one `key` prop
