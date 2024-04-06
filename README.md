@@ -65,3 +65,12 @@
 
 1. move the state down from the `Quiz.jsx` component to the `Question.jsx` component
 2. disable the button to prevent from clicking it when an answer was selected in `Answers.jsx`
+
+## 10. Setting Different Timers Based On The Selected Answer
+
+1. update the `<QuestionTimer>` component in `Question.jsx`
+   1. if an answer was selected so that a new timer starts and only expires after we showed the correct or wrong answer
+   2. when this timer expires don't tell the `Quiz.jsx` component that the question was not answered
+2. add a `mode` prop in `QuestionTimer.jsx` & set it as a `className`, then set its value to the `answerState` in `Question.jsx` for styling purposes
+3. reset the interval whenever the timer changes to make the interval inline with the new timer and the new `max` value of the `progress` bar by adding a `key` prop with a value of `timer` in `Question.jsx`
+4. trigger the `onSkipAnswer` function only if no answer was selected in `Question.jsx` to avoid skipping questions unexpectedly
