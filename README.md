@@ -74,3 +74,10 @@
 2. add a `mode` prop in `QuestionTimer.jsx` & set it as a `className`, then set its value to the `answerState` in `Question.jsx` for styling purposes
 3. reset the interval whenever the timer changes to make the interval inline with the new timer and the new `max` value of the `progress` bar by adding a `key` prop with a value of `timer` in `Question.jsx`
 4. trigger the `onSkipAnswer` function only if no answer was selected in `Question.jsx` to avoid skipping questions unexpectedly
+
+## 11. Outputting Quiz Results
+
+1. create a `Summary.jsx` component
+2. output the `<Summary>` component in `Quiz.jsx`
+3. use the `userAnswers`'s object to derive all the different data points we need in `Summary.jsx`
+4. use the `index` as a `key` to avoid encountering two children with the same key
